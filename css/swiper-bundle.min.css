@@ -321,7 +321,7 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader {
 
 .swiper-button-prev:after,
 .swiper-rtl .swiper-button-next:after {
-    content: url(../../images/main/slide_banner_left_btn.svg)
+    content: url(../images/main/slide_banner_left_btn.svg)
 }
 
 .swiper-button-next,
@@ -332,7 +332,7 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader {
 
 .swiper-button-next:after,
 .swiper-rtl .swiper-button-prev:after {
-    content: url(../../images/main/slide_banner_right_btn.svg)
+    content: url(../images/main/slide_banner_right_btn.svg)
 }
 
 .swiper-button-lock {
