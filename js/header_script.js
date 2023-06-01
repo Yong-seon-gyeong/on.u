@@ -20,3 +20,19 @@ $('#top_icon3').click(function(){
 $('.close_btn, .slide_search_bg').click(function(){
   $('#slide_search').fadeOut(200);
 });
+
+//top^을 누르면 스크롤이 0이되라
+$('.scroll_top_btn').hide();
+$(window).scroll(function(){
+    var height = $(window).scrollTop();
+    if(height > 100){
+        $('.scroll_top_btn').fadeIn(0)
+    }else{
+        $('.scroll_top_btn').fadeOut(0)
+    }
+});
+$('.scroll_top_btn').click(function(){
+    $('body,html').animate({
+        scrollTop : 0
+    },500);
+});
