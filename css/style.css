@@ -21,6 +21,11 @@ body {
     color: #000;
     min-width: 1700px;
 }
+
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
 /*마우스 커서 변경*/
 #drawing_line {
     position: relative;
