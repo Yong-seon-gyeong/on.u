@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1500">
+    <title>on.u</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/main/favicon.png">
+    <!--web font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!--기본 css-->
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/footer_style.css">
+    <link rel="stylesheet" href="../css/header_style.css">
+</head>
+<body>
+    <div id="header_wrap">
+        <div class="header"><!--가운데-->
+            <h1 class="logo">
+                <a href="../index.html">
+                    <img src="../images/main/main_logo_color.svg" alt="온유로고" id="logo_img">
+                </a>
+            </h1>
+            <ul class="top_icon">
+                <li>
+                    <a href="login.html">
+                        <img src="../images/main/top_my_color.svg" alt="마이페이지" id="top_icon1">
+                    </a>
+                </li>
+                <li>
+                    <a href="login.html">
+                        <img src="../images/main/top_cart_color.svg" alt="장바구니" id="top_icon2">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:return false;">
+                        <img src="../images/main/top_search_color.svg" alt="검색" id="top_icon3">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <nav>
+            <div class="gnb_wrap">
+                <ul class="gnb">
+                    <li>
+                        <a href="about.html">
+                            About Us
+                        </a>
+                        <div class="menu_ball">
+                        </div>
+                    </li>
+                    <li>
+                        <a href="shop.html">
+                            Shop
+                        </a>
+                        <div class="menu_ball">
+                        </div>
+                    </li>
+                    <li>
+                        <a href="event.html">
+                            Event
+                        </a>
+                        <div class="menu_ball">
+                        </div>
+                    </li>
+                    <li>
+                        <a href="community.html">
+                            Community
+                        </a>
+                        <div class="menu_ball">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="submenu_wrap">
+                <div class="submenu"><!--가운데-->
+                    <div class="submenu_inner"><!--왼쪽패딩-->
+                        <ul>
+                            <li>
+                                <a href="../sub/about.html#who_we_are">Brand Story</a>
+                            </li>
+                            <li>
+                                <a href="../sub/about.html#what_we_do">Campain</a>
+                            </li>
+                            <li>
+                                <a href="../sub/about.html#map">Offline Store</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="#clothes">Clothes</a>
+                            </li>
+                            <li>
+                                <a href="#toys">Toys</a>
+                            </li>
+                            <li>
+                                <a href="#walk">Walk</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="community.html">Notice</a>
+                            </li>
+                            <li>
+                                <a href="#help_wrap">1:1문의</a>
+                            </li>
+                            <li>
+                                <a href="#faq">FAQ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div id="slide_search">
+            <button class="close_btn">
+                <img src="../images/main/feed_close_icon.png" alt="">
+            </button>
+            <div class="search_inner_wrap">
+                <div class="search_inner">
+                    <form action="">
+                        <div class="search_title">고객님<br>무엇을 찾으세요?</div>
+                            <fieldset>
+                                    <p>
+                                        <input class="inputTypeText" placeholder="검색어를 입력해주세요." type="search">
+                                        <img src="../images/main/top_search_color.svg" alt="검색" class="search_cont">
+                                    </p>
+                                </fieldset>
+                    </form>
+                    <div class="popular">
+                        <div class="title2">
+                            인기 검색어
+                        </div>
+                        <p>
+                            <a href="javascript:return false;">#방석</a>
+                            <a href="javascript:return false;">#하네스</a>
+                            <a href="javascript:return false;">#리드줄</a>
+                            <a href="javascript:return false;">#이동가방</a>
+                            <a href="javascript:return false;">#장난감</a>
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="slide_search_bg"></div>
+        </div><!--slide_search_E-->
+    </div><!--header_E-->
+    <div id="login_wrap"><!--배경이미지-->
+        <div id="login"><!--가운데-->
+            <div class="login_inner">
+                <h2 class="title">Login.</h2>
+                <div>
+                    <div class="login_form"><!--왼-->
+                        <form action="">
+                            <input class="input_login id" type="text" placeholder="아이디">
+                            <input class="input_login pw" type="text" placeholder="비밀번호">
+                            <input type="checkbox" id="remember-check">
+                            <label for="remember-check">
+                                아이디 저장
+                            </label>
+                        </form>
+                    </div>
+                    <div class="login_btn"><!--오-->
+                        <button type="submit">로그인</button>
+                        <ul>
+                            <li>
+                                <a href="javascript:return false;">회원가입</a>
+                            </li>
+                            <li>
+                                <a href="javascript:return false;">아이디찾기</a>
+                            </li>
+                            <li>
+                                <a href="javascript:return false;">비밀번호찾기</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="sns_title">간편 로그인</p>
+                <ul class="sns_login">
+                    <li class="kakao">
+                        <a href="javascript:return false;">카카오로 로그인</a>
+                    </li>
+                    <li class="naver" >
+                        <a href="javascript:return false;">네이버로 로그인</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="footer_wrap">
+        <div id="footer">
+            <div class="footer1">
+                <ul class="cs">
+                    <li>C / S</li>
+                    <li>070-7576-3421</li>
+                    <li>
+                        AM 10:00 - PM 17:00 (주말 및 공휴일 휴무)
+                        <br> <span>점심시간</span> 13:00 - 1 4:00
+                    </li>
+                </ul>
+                <ul class="company">
+                    <li>COMPANY</li>
+                    <li class="company_inner">
+                        <ul>
+                            <li>온유(on.u)</li>
+                            <li>CEO : YONG SEONGYEONG</li>
+                            <li> 부산 해운대구 센텀동로 49
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>Business License : 477-08-00910[사업자정보확인]</li>
+                            <li> E-Commerce Permit : 2023-부산센텀-0555
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>T : 070-7576-3421</li>
+                            <li>E-mail : onu@naver.com</li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="bank">
+                    <li>BANK</li>
+                    <li>
+                        <span>우리은행 1005-357-998083</span> <br> <span class="name">예금주 : 온유</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer2">
+                <ul>
+                    <li><a href="about.html">AboutUs</a></li>
+                    <li><a href="javascript:return false;">Customer Service</a></li>
+                    <li><a href="about.html#map">Offline Stores</a></li>
+                    <li><a href="javascript:return false;">Size guide</a></li>
+                    <li><a href="javascript:return false;">Wholesale</a></li>
+                    <li><a href="javascript:return false;">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </div><!--footer_wrap_E-->
+    <!--js 기본소스-->
+    <script src="../js/jquery-3.6.4.min.js"></script>
+<script src="../js/header_script.js"></script>
+</body>
+</html>
