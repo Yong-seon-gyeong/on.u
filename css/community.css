@@ -269,6 +269,7 @@ input::-webkit-search-results-decoration{
     box-sizing: border-box;
     padding: 25px 0 25px 48px;
     overflow: hidden;
+	font-size: 14px;
 }
 .qs_btn img {
     transition: transform 0.5s;
