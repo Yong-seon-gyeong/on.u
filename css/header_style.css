@@ -1,4 +1,9 @@
 @charset "UTF-8";
+
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
 /*header*/
 #header_wrap {
     position: fixed;
