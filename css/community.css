@@ -247,12 +247,12 @@ input::-webkit-search-results-decoration{
 	overflow: hidden;
 	position: relative;
 	border-bottom: 1px solid #ddd;
-    box-sizing: border-box;
-    cursor: pointer;
+   	 box-sizing: border-box;
+    	cursor: pointer;
+	font-size: 18px;
 }
 .qs{
     padding: 25px 0 25px 48px;
-    font-size: 18px;
 }
 .qs_btn{
     position: absolute;
