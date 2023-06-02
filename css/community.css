@@ -23,6 +23,10 @@ body {
     padding-top: 80px;
 }
 
+html {
+    -webkit-text-size-adjust: none;
+}
+
 #visual_wrap {
     border-bottom: 2px solid #000;
 }
@@ -249,9 +253,9 @@ input::-webkit-search-results-decoration{
 	border-bottom: 1px solid #ddd;
    	 box-sizing: border-box;
     	cursor: pointer;
-	font-size: 18px;
 }
 .qs{
+	font-size: 18px;
     padding: 25px 0 25px 48px;
 }
 .qs_btn{
@@ -269,7 +273,6 @@ input::-webkit-search-results-decoration{
     box-sizing: border-box;
     padding: 25px 0 25px 48px;
     overflow: hidden;
-	font-size: 14px;
 }
 .qs_btn img {
     transition: transform 0.5s;
