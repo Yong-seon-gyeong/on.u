@@ -23,7 +23,7 @@ body {
     padding-top: 80px;
 }
 html {
-    -webkit-text-size-adjust: none;
+    -webkit-text-size-adjust: 100%;
 }
 
 #visual_wrap {
