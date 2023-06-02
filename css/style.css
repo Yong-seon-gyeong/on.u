@@ -16,17 +16,20 @@ ul {
 }
 
 @media (max-width: 1700px) {
+    body {
+        overflow-x: hidden;
+    }
     .container {
         width: 100%;
-        max-width: 1320px;
+        margin: 0;
     }
 }
+
 
 body {
     font-size: 14px;
     font-family: 'Noto Sans KR', sans-serif;
     color: #000;
-    min-width: 1700px;
 }
 
 html {
