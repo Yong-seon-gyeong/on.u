@@ -19,8 +19,7 @@ body {
     font-size: 14px;
     font-family: 'Noto Sans KR', sans-serif;
     color: #000;
-    width: 100vw;
-    overflow-x: hidden;
+     min-width: 1500px;
 }
 
 html {
