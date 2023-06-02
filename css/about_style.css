@@ -24,6 +24,10 @@ body {
     padding-top: 80px;
 }
 
+html {
+    -webkit-text-size-adjust: none;
+}
+
 /*공통꾸미기*/
 #visual, #container, #container2, #eco_packaging,  .donation_product, #map{
     margin: 0 auto;
