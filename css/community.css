@@ -24,7 +24,7 @@ body {
 }
 
 html {
-    -webkit-text-size-adjust: none;
+    -webkit-text-size-adjust: 100%;
 }
 
 #visual_wrap {
