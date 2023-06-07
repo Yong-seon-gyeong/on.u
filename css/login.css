@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #000;
+    min-width: 1400px;
+    padding-top: 80px;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
+#login_wrap{
+    height: 888px;
+    background-image: url(../images/login/login_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+#login{
+    margin: 0 auto;
+    width: 1320px;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.login_inner{
+    display: inline-block;
+    width: 593px;
+    height: 788px;
+    background-color: #ffffff73;
+    backdrop-filter: blur(15px);
+    padding: 102px 65px;
+    box-sizing: border-box;
+}
+.title{
+    font-size: 150px;
+    font-weight: 900;
+    font-family: 'Roboto';
+    padding-bottom: 50px;
+    line-height: 181px;
+}
+
+.input_login{
+    width: 320px;
+    height: 48px;
+    background-color: transparent;
+    font-size: 17px;
+    padding: 0 0 0 20px;
+    outline: none;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+.input_login::placeholder{
+    color: #999;
+    font-weight: 600;
+
+}
+.login_inner .id{
+    margin-bottom: 20px;
+}
+.login_inner .pw{
+    margin-bottom: 10px;
+}
+.login_inner > div{
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 79px;
+}
+
+.login_form{
+    float: left;
+    width: 320px;
+    text-align: left;
+}
+.login_btn{
+    float: right;
+    width: 123px;
+
+}
+.login_btn button{
+    width: 123px;
+    height: 115px;
+    background-color: #000;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.login_btn ul{
+    position: absolute;
+    right: 0;
+    top: 118px;
+}
+.login_btn ul li{
+    float: left;
+    padding-top: 8px;
+}
+.login_btn ul li a{
+    display: inline-block;
+    color: #999;
+    margin-left: 10px;
+}
+.login_btn ul li::before{
+    content: '';
+    width: 1px;
+    height: 10px;
+    display: inline-block;
+    background-color: #999;
+    margin-left: 10px;
+}
+.login_btn ul li:first-child::before{
+    display: none;
+}
+
+.login_form  input[type="checkbox"]{
+    display: none;
+}
+.login_form  label{
+    color: #999999;
+}
+.login_form input[type="checkbox"] + label{
+    cursor: pointer;
+    padding-left: 26px;
+    background-image: url("../images/login/check_off.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.login_form input[type="checkbox"] + label:hover{
+    background-image: url(../images/login/check_over.png);
+}
+.login_form input[type="checkbox"]:checked + label{
+    background-image: url("../images/login/check_on.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.sns_title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.sns_login{
+    width: 464px;
+    padding-top: 31px;
+}
+.sns_login li{
+    float: left;
+    width: 222px;
+}
+.sns_login li:first-child{
+    padding-right: 20px;
+}
+.sns_login li a{
+    display: block;
+    width: 222px;
+    height: 60px;
+    padding: 20px 0 0 30px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: left 30px center;
+}
+.sns_login .kakao a{
+    background-color: #ffeb00;
+    background-image: url(../images/login/p__login_sns_01.svg);
+}
+.sns_login .naver a{
+    background-color: #fff;
+    background-image: url(../images/login/p__login_sns_02.svg);
+}
