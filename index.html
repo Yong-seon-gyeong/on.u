@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1500">
+    <!-- <meta name="viewport" content="width=device-width"> -->
+    <title>on.u</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/main/favicon.png">
+    <!--web font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!--swiper_css-->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!--slick_css-->
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <!--aos_css-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="header_wrap">
+        <div class="header"><!--가운데-->
+            <h1 class="logo">
+                <a href="index.html">
+                    <img src="images/main/main_logo.svg" alt="온유로고" id="logo_img">
+                </a>
+            </h1>
+            <ul class="top_icon">
+                <li>
+                    <a href="sub/login.html">
+                        <img src="images/main/top_my.svg" alt="마이페이지" id="top_icon1">
+                    </a>
+                </li>
+                <li>
+                    <a href="sub/login.html">
+                        <img src="images/main/top_cart.svg" alt="장바구니" id="top_icon2">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:return false;">
+                        <img src="images/main/top_search.svg" alt="검색" id="top_icon3">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <nav>
+            <div class="gnb_wrap">
+                <ul class="gnb">
+                    <li>
+                        <a href="sub/about.html">
+                            About Us
+                        </a>
+                        <div class="menu_ball">
+                        </div>
+                    </li>
+                    <li>
+                        <a href="sub/shop.html">
+                            Shop
+                        </a>
+                        <div class="menu_ball">
+                        </div>
+                    </li>
+                    <li>
+                        <a href="sub/event.html">
+                            Event
+                        </a>
+                        <div class="menu_ball">
+                        </div>
+                    </li>
+                    <li>
+                        <a href="sub/community.html">
+                            Community
+                        </a>
+                        <div class="menu_ball">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="submenu_wrap">
+                <div class="submenu"><!--가운데-->
+                    <div class="submenu_inner"><!--왼쪽패딩-->
+                        <ul>
+                            <li>
+                                <a href="sub/about.html">Brand Story</a>
+                            </li>
+                            <li>
+                                <a href="sub/about.html#what_we_do">
+                                    Campaign</a>
+                            </li>
+                            <li>
+                                <a href="sub/about.html#map">Offline Store</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="sub/shop.html#chothes">Clothes</a>
+                            </li>
+                            <li>
+                                <a href="sub/shop.html#toys">Toys</a>
+                            </li>
+                            <li>
+                                <a href="sub/shop.html#walk">Walk</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="sub/community.html">Notice</a>
+                            </li>
+                            <li>
+                                <a href="sub/community.html#help_wrap">1:1문의</a>
+                            </li>
+                            <li>
+                                <a href="sub/community.html#faq">FAQ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div id="slide_search">
+            <button class="close_btn">
+                <img src="images/main/feed_close_icon.png" alt="">
+            </button>
+            <div class="search_inner_wrap">
+                <div class="search_inner">
+                    <form action="">
+                        <div class="title">고객님<br>무엇을 찾으세요?</div>
+                        <fieldset>
+                            <p>
+                                <input class="inputTypeText" placeholder="검색어를 입력해주세요." type="search">
+                                <img src="images/main/top_search_color.svg" alt="검색" class="search_cont">
+                            </p>
+                        </fieldset>
+                    </form>
+                    <div class="popular">
+                        <div class="title2">
+                            인기 검색어
+                        </div>
+                        <p>
+                            <a href="javascript:return false;">#방석</a>
+                            <a href="javascript:return false;">#하네스</a>
+                            <a href="javascript:return false;">#리드줄</a>
+                            <a href="javascript:return false;">#이동가방</a>
+                            <a href="javascript:return false;">#장난감</a>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="slide_search_bg"></div>
+        </div><!--slide_search_E-->
+    </div><!--header_E-->
+    <!-- Swiper -->
+    <div id="visual">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="javascript:return false;">
+                        <img src="images/main/slide_banner_1.svg" alt="">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="javascript:return false;"><img src="images/main/slide_banner_2.svg" alt=""></a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="javascript:return false;"><img src="images/main/slide_banner_3.svg" alt=""></a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="javascript:return false;"><img src="images/main/slide_banner_4.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="swiper-button-next swiper_btn">
+                <div class="swiper_btn_hover next"></div>
+            </div>
+            <div class="swiper-button-prev swiper_btn">
+                <div class="swiper_btn_hover prev"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </div><!--slide_E-->
+
+
+    <div id="container_wrap">
+        <div id="container"><!--가운데-->
+            <div class="about_wrap section">
+                <div class="about left"><!--왼-->
+                    <h2 class="section_title">About Us.</h2>
+                    <div class="about_text_box">
+                        <p class="sub_title">For better life</p>
+                        <p>모든 생명의 더나은 내일을<br>
+                            온유는 반려동물과 함께 지속가능한 삶의 방식을 고민합니다. <br>
+                            건강한 반려생활을 위한 더 나은 방법을 고민하고, <br> 빠르고 쉬운 길 보다는 옳은 길을 향해 가고자 합니다.</p>
+                    </div>
+                    <div class="photo_box" data-aos="fade-right" data-aos-duration="1500">
+                        <img src="images/main/about_2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="about right"><!--오-->
+                    <div class="photo_box" data-aos="fade-left" data-aos-duration="1500">
+                        <img src="images/main/about_1.jpg" alt="">
+                    </div>
+                    <div class="about_text_box">
+                        <p class="sub_title">Creating a better tomorrow <br> for all animals</p>
+                        <p>올바른 반려 문화를 만들기 위해, <br> 더 의식 있는 서비스와 상품을 제공합니다. <br> 우리의 고객 경험이 동물들의 더 나은 내일을 만들 수 있다고 믿기에,
+                            <br> 온유는 똑똑하고 건강한 반려생활을 위해 지속해서 관찰하고더 <br> 나은 방법을 끊임없이 고민합니다.
+                        </p>
+                        <p class="btn">
+                            <a href="sub/about.html">Read more</a>
+                        </p>
+                    </div>
+                </div>
+            </div><!--about_wrap_E-->
+            <div class="shop_now section">
+                <div class="left shop_now_left"><!--왼-->
+                    <div class="photo_box">
+                        <img src="images/main/shop_now_1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="right shop_now_right"><!--오-->
+                    <div class="photo_box"><!--왼-->
+                        <img src="images/main/shop_now_2.jpg" alt="">
+                    </div>
+                    <div class="shop_now_inner_right"><!--오-->
+                        <div class="shop_now_text_box"><!--왼-->
+                            <p class="section_title">Wardrobe <br>
+                                Essentials.</p>
+                            <p class="btn">
+                                <a href="sub/shop.html">
+                                    Shop now
+                                </a>
+                            </p>
+                        </div>
+                        <div class="photo_box"><!--오-->
+                            <img src="images/main/shop_now_3.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <p class="layer-cloud layer">
+                    <img src="images/main/layer-cloud.png" alt="">
+                </p>
+            </div><!--shop_now_E-->
+        </div><!--container_E-->
+        <div id="kakao_banner_wrap">
+            <div id="kakao_banner">
+                <div class="photo_box_wrap"><!--가운데-->
+                    <div class="photo_box" data-aos="flip-left" data-aos-duration="2000"><!--왼-->
+                        <img src="images/main/kakao_banner_phone.png" alt="">
+                    </div>
+                </div>
+                <div class="kakao_text_box">
+                    <p>이제 카카오톡 선물할때도 <br>
+                        온유 제품으로
+                    </p>
+                    <p class="btn">
+                        <a href="javascript:return false;">
+                            GO KAKAO
+                        </a>
+                    </p>
+                    <p>#선물하기 #카카오톡 #선물세트</p>
+                </div>
+            </div>
+        </div>
+        <div id="container2">
+            <div id="recommend" class="section">
+                <div class="left">
+                    <p class="section_title">You may also <br>
+                        be interested in.</p>
+                    <div class="left">
+                        <a href="javascript:return false;">
+                            <div class="recommend_product">
+                                <div class="photo_box">
+                                    <img src="images/main/recommend_2.png" alt="">
+                                </div>
+                                <div class="recommend_text_box">
+                                    <p>텐이어스 영 독 슬리브리스 티 베이지</p>
+                                    <p>KRW 33,000</p>
+                                    <p>S SM M L XL 2XL</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="right">
+                        <a href="javascript:return false;">
+                            <div class="recommend_product">
+                                <div class="photo_box">
+                                    <img src="images/main/recommend_3.png" alt="">
+                                </div>
+                                <div class="recommend_text_box">
+                                    <p>덤베어 프랜즈 토이</p>
+                                    <p>KRW 4,9000</p>
+                                    <p>18cm X 25cm</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="right">
+                    <a href="javascript:return false;">
+                        <div class="recommend_product">
+                            <div class="photo_box">
+                                <img src="images/main/recommend_1.png" alt="">
+                            </div>
+                            <div class="recommend_text_box">
+                                <p>스마일리 코튼 슬리브 티 그린 II</p>
+                                <p>KRW 43,000</p>
+                                <p>S SM M L XL 2XL</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <p class="layer-bib layer">
+                    <img src="images/main/layer-bib.png" alt="">
+                </p>
+                <p class="layer-bone layer">
+                    <img src="images/main/layer-bone.png" alt="">
+                </p>
+            </div>
+            <div id="event" class="section">
+                <p class="section_title">Event.</p>
+                <a href="sub/event.html">
+                    <p class="arrow_btn event_btn">View more</p>
+                </a>
+                <section class="center slider">
+                    <div>
+                        <a href="javascript:return false;">
+                            <img src="images/main/event_app.jpg">
+                            <p>온유 모바일앱 다운로드 시 <br> 5% 할인쿠폰 증정</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="javascript:return false;">
+                            <img src="images/main/event_summer_sale.jpg">
+                            <p>온유 여름을 부탁해 <br> SUMMER SALE</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="javascript:return false;">
+                            <img src="images/main/event_check.jpg">
+                            <p class="check_p">하루한번 출석체크 이벤트
+                            </p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="javascript:return false;">
+                            <img src="images/main/event_toy.jpg">
+                            <p>장난감 구매 시 <br>
+                                노즈워크 간식 무료증정
+                            </p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="javascript:return false;">
+                            <img src="images/main/event_travel.jpg">
+                            <p>SUMMER TRAVEL <br> LUCKY BOX</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="javascript:return false;">
+                            <img src="images/main/event_gogoweek.jpg">
+                            <p>GOGO WEEK <br> 산책용품 ~30% OFF</p>
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </div><!--container2_E-->
+        <div id="future_story">
+            <div class="cover"><!--검정배경-->
+                <div class="future_story_text_box">
+                    <p>지구와 환경을 사랑하는 마음, 가득담아</p>
+                    <p>
+                        온유는 동물, 그리고 우리가 살아가는 지구의 더 나은 내일을 꿈꿉니다. <br>
+                        배송하는 제품을 종이 포장재로 변경하고, 비닐 사용을 점진적으로 줄여 나가고 있습니다. <br>
+                        우리의 제품들은 우리의 건강한 삶과 가치있는 소비를 위해 지구와 환경에 이로운 방법을 고민합니다.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="container3" class="section">
+            <div class="title_box">
+                <div class="photo_box">
+                    <img src="images/main/instagram.svg" alt="">
+                </div>
+                <p class="section_title">
+                    Styling with <br>
+                    Instagram.
+                </p>
+                <p>
+                    <a href="https://www.instagram.com/">@ on.u instagram </a>
+                </p>
+            </div>
+            <div class="instagram">
+                <ul class="board1">
+                    <li>
+                        <button class="feed1">
+                            <img src="images/main/instagram_feed_1.jpg" alt="">
+                        </button>
+                    </li>
+                    <li>
+                        <button class="feed2">
+                            <img src="images/main/instagram_feed_2.jpg" alt="">
+                        </button>
+                    </li>
+                    <li>
+                        <button class="feed3">
+                            <img src="images/main/instagram_feed_3.jpg" alt="">
+                        </button>
+                    </li>
+                </ul>
+                <ul class="board2">
+                    <li>
+                        <button class="feed4">
+                            <img src="images/main/instagram_feed_4.jpg" alt="">
+                        </button>
+                    </li>
+                    <li>
+                        <button class="feed5">
+                            <img src="images/main/instagram_feed_5.jpg" alt="">
+                        </button>
+                    </li>
+                    <li>
+                        <button class="feed6">
+                            <img src="images/main/instagram_feed_6.jpg" alt="">
+                        </button>
+                    </li>
+                </ul>
+
+                <ul class="board3">
+                    <li>
+                        <button class="feed7">
+                            <img src="images/main/instagram_feed_7.jpg" alt="">
+                        </button>
+                    </li>
+                    <li>
+                        <button class="feed8">
+                            <img src="images/main/instagram_feed_8.jpg" alt="">
+                        </button>
+                    </li>
+                    <li>
+                        <button class="feed9">
+                            <img src="images/main/instagram_feed_9.jpg" alt="">
+                        </button>
+                    </li>
+                </ul>
+                <ul class="board4">
+                    <li>
+                        <button class="feed10">
+                            <img src="images/main/instagram_feed_10.jpg" alt="">
+                        </button>
+                    </li>
+                    <li>
+                        <button class="feed11">
+                            <img src="images/main/instagram_feed_11.jpg" alt="">
+                        </button>
+                    </li>
+                    <li>
+                        <button class="feed12">
+                            <img src="images/main/instagram_feed_12.jpg" alt="">
+                        </button>
+                    </li>
+                </ul>
+                <button class="plus_btn">
+                    View more
+                </button>
+            </div>
+        </div><!--container3_E-->
+        <div id="pop_up_wrap">
+            <div id="pop_up">
+                <div class="pop_up_feed1">
+                    <div class="photo_box"><!--왼-->
+                        <img src="images/main/instagram_feed_1.jpg" alt="">
+                    </div>
+                    <div class="pop_up_text_box"><!--오-->
+                        <div class="propile">
+                            <div class="instagram_propile">
+                                <img src="images/main/instagram_propile.svg" alt=""><!--왼-->
+                            </div>
+                            <div class="name">
+                                <p>on_u</p>
+                            </div>
+                        </div>
+                        <div class="feed_text">
+                            <p> 기분좋은 미소가 절로 지어지는 스마일리와 함께한 다양한 제품들을 만나보세요😊</p>
+                            <p>SMILEY COTTON SLEEVE TEE <br>
+                                4계절 유용하게 입힐 수 있는가벼운 베이직한 반팔 티셔츠 입니다. 신축성이 좋아 옷을 입고 벗기편한하며 피치가공이 되어있어 원단이 매우 부드럽습니다.
+                                스마일리 제품들과 함께 연출하여 주시면 더욱 귀여운 룩이 완성됩니다.</p>
+                        </div>
+                        <div class="inner_product">
+                            <a href="javascript:return false;">
+                                <div class="product_photo_box">
+                                    <img src="images/main/inner_product_1.png" alt="">
+                                </div>
+                                <div class="product_text_box">
+                                    <p>
+                                        스마일리 코튼 슬리브 티 그린 <br>
+                                        KRW 43,000
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <button class="feed_close">
+                        <img src="images/main/feed_close_icon.png" alt="">
+                    </button>
+                </div>
+                <div class="pop_up_feed2">
+                    <div class="photo_box"><!--왼-->
+                        <img src="images/main/instagram_feed_2.jpg" alt="">
+                    </div>
+                    <div class="pop_up_text_box"><!--오-->
+                        <div class="propile">
+                            <div class="instagram_propile">
+                                <img src="images/main/instagram_propile.svg" alt=""><!--왼-->
+                            </div>
+                            <div class="name">
+                                <p>on_u</p>
+                            </div>
+                        </div>
+                        <div class="feed_text">
+                            <p> 개성있는 컬러의 티셔츠를 입고있는 덤베어 프랜즈 토이입니다. 토이 속에는 딸랑이와 삑삑이가 들어있으며 마이크로 화이버로 채워져 있습니다. 덤베어 프랜즈는
+                                멍멍친구들의 베스트 프랜즈가 되기 충분한 사이즈로 제작되어 쿠션안쪽에 함께 넣어주거나 베게로 사용하여도 좋습니다.
+
+                            </p>
+                        </div>
+                        <div class="inner_product">
+                            <a href="javascript:return false;">
+                                <div class="product_photo_box">
+                                    <img src="images/main/inner_product_2.jpeg" alt="">
+                                </div>
+                                <div class="product_text_box">
+                                    <p>
+
+                                        덤베어 프랜즈 토이 III <br>
+                                        KRW 49,000
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <button class="feed_close">
+                        <img src="images/main/feed_close_icon.png" alt="">
+                    </button>
+                </div>
+                <div class="pop_up_feed3">
+                    <div class="photo_box"><!--왼-->
+                        <img src="images/main/instagram_feed_3.jpg" alt="">
+                    </div>
+                    <div class="pop_up_text_box"><!--오-->
+                        <div class="propile">
+                            <div class="instagram_propile">
+                                <img src="images/main/instagram_propile.svg" alt=""><!--왼-->
+                            </div>
+                            <div class="name">
+                                <p>on_u</p>
+                            </div>
+                        </div>
+                        <div class="feed_text">
+                            <p> Crop Top <br>
+                                사랑스러운 멍멍이 그래픽이 매력적인 기본 슬리브 티셔츠 입니다.
+
+                                하단 및 소매부분의 스티치로 포인트를 주어 더욱 사랑스러운 룩을 연출하여 줍니다.
+
+                                배 부분에는 고무줄 처리가 되어있어 활동시 편안하며 남자아가 여자아가 모두 예쁜 핏으로 입힐 수 있습니다.
+
+                                COTTON 100%
+
+                            </p>
+                        </div>
+                        <div class="inner_product">
+                            <a href="javascript:return false;">
+                                <div class="product_photo_box">
+                                    <img src="images/main/inner_product_3.jpg" alt="">
+                                </div>
+                                <div class="product_text_box">
+                                    <p>
+                                        크롭 탑 화이트 <br>
+                                        KRW 28,000
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <button class="feed_close">
+                        <img src="images/main/feed_close_icon.png" alt="">
+                    </button>
+                </div>
+                <div class="pop_up_feed4">
+                    <div class="photo_box"><!--왼-->
+                        <img src="images/main/instagram_feed_4.jpg" alt="">
+                    </div>
+                    <div class="pop_up_text_box"><!--오-->
+                        <div class="propile">
+                            <div class="instagram_propile">
+                                <img src="images/main/instagram_propile.svg" alt=""><!--왼-->
+                            </div>
+                            <div class="name">
+                                <p>on_u</p>
+                            </div>
+                        </div>
+                        <div class="feed_text">
+                            <p> Play cushion ▪️ 1980 ponyride sleeveless tee ❤️ <br> 플레이쿠션은 원단의 내구성을 높이기위해 숨쉬는 기능성 트리코트가
+                                본딩되어져있어 더욱 푹신하며 숨이 쉽게 꺼지지 않게 도와줍니다 :)
+
+                            </p>
+                        </div>
+                        <div class="inner_product">
+                            <a href="javascript:return false;">
+                                <div>
+                                    <div class="product_photo_box">
+                                        <img src="images/main/inner_product_4.jpg" alt="">
+                                    </div>
+                                    <div class="product_text_box">
+                                        <p>
+                                            플레이쿠션 <br>
+                                            KRW 169,000
+                                        </p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="product_photo_box">
+                                        <img src="images/main/inner_product_4-1.jpg" alt="">
+                                    </div>
+                                    <div class="product_text_box">
+                                        <p>
+                                            1980 포니라이드 슬리브리스 <br>
+                                            KRW 33,000
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <button class="feed_close">
+                        <img src="images/main/feed_close_icon.png" alt="">
+                    </button>
+                </div>
+                <div class="pop_up_feed5">
+                    <div class="photo_box"><!--왼-->
+                        <img src="images/main/instagram_feed_5.jpg" alt="">
+                    </div>
+                    <div class="pop_up_text_box"><!--오-->
+                        <div class="propile">
+                            <div class="instagram_propile">
+                                <img src="images/main/instagram_propile.svg" alt=""><!--왼-->
+                            </div>
+                            <div class="name">
+                                <p>on_u</p>
+                            </div>
+                        </div>
+                        <div class="feed_text">
+                            <p> 타이니 독 그래픽이 너무나도 깜찍한 패딩드레스 하네스 입니다.
+
+                                넉넉한 길이감과 하네스 속에는 패딩솜이 들어가있어 아우터 대신 하네스 만으로도 따뜻하게 산책이 가능합니다.
+                                하네스 의 안감은 부드러운 Faux Fur 소재를 사용하여 궁극의 부드러움과 따뜻함을 동시에 느낄 수 있습니다.
+                                깜찍한 타이니 독 키링이 세트구성으로 미니백, 케리어, 하네스 등 원하시는 곳에 자유롭게 연출이 가능합니다.
+                                타이니독 미니백 과 함께 연출하여 주시면 더욱 사랑스러운 커플룩을 연출할 수 있습니다.
+                            </p>
+                        </div>
+                        <div class="inner_product">
+                            <a href="javascript:return false;">
+                                <div class="product_photo_box">
+                                    <img src="images/main/inner_product_5.jpg" alt="">
+                                </div>
+                                <div class="product_text_box">
+                                    <p>
+                                        타이니 독 프롬 하네스 레드 <br>
+                                        KRW 102,000
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <button class="feed_close">
+                        <img src="images/main/feed_close_icon.png" alt="">
+                    </button>
+                </div>
+                <div class="pop_up_feed6">
+                    <div class="photo_box"><!--왼-->
+                        <img src="images/main/instagram_feed_6.jpg" alt="">
+                    </div>
+                    <div class="pop_up_text_box"><!--오-->
+                        <div class="propile">
+                            <div class="instagram_propile">
+                                <img src="images/main/instagram_propile.svg" alt=""><!--왼-->
+                            </div>
+                            <div class="name">
+                                <p>on_u</p>
+                            </div>
+                        </div>
+                        <div class="feed_text">
+                            <p> 멋진 드레스를 입은 듯한 하네스 입니다. 두께가 얇고 부드러운 순면100%원단과 통기성의 뛰어난 에어매쉬 안감을 사용하여 제작되었습니다.
+
+                                하네스와 리드줄은 세트 구성이며, 사이즈는 기존에 없던 XL사이즈가 추가되었습니다.
+                                간단한 벨크로 사용으로 입고 벗기 편안하며, 실리콘 수입 벨크로 를 사용하여 더욱 부드럽고 접착력이 매우 우수합니다
+                            </p>
+                        </div>
+                        <div class="inner_product">
+                            <a href="javascript:return false;">
+                                <div class="product_photo_box">
+                                    <img src="images/main/inner_product_6.jpg" alt="">
+                                </div>
+                                <div class="product_text_box">
+                                    <p>
+
+                                        꼬모 드레시 하네스 세트_민트 <br>
+                                        KRW 89,000
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <button class="feed_close">
+                        <img src="images/main/feed_close_icon.png" alt="">
+                    </button>
+                </div>
+                <div class="pop_up_feed7">
+                    <div class="photo_box"><!--왼-->
+                        <img src="images/main/instagram_feed_7.jpg" alt="">
+                    </div>
+                    <div class="pop_up_text_box"><!--오-->
+                        <div class="propile">
+                            <div class="instagram_propile">
+                                <img src="images/main/instagram_propile.svg" alt=""><!--왼-->
+                            </div>
+                            <div class="name">
+                                <p>on_u</p>
+                            </div>
+                        </div>
+                        <div class="feed_text">
+                            <p> Young Frill Top
+                                <br>
+                                시선을 사로잡는 색상조합과 사랑스러운 프릴과 강아지 그래픽이 매력적인 크롭스타일의 프릴탑 입니다.
+
+                                매우 얇고 통기성이 우수한 면100% 원단을 사용하여 무더운 여름에도 부담없이 입히기 좋습니다.
+
+                                소매통은 보다 넉넉하게 디자인되어 활동성이 뛰어나며 편안한 핏을 선사하여 줍니다.
+                            </p>
+                        </div>
+                        <div class="inner_product">
+                            <a href="javascript:return false;">
+                                <div class="product_photo_box">
+                                    <img src="images/main/inner_product_7.jpg" alt="">
+                                </div>
+                                <div class="product_text_box">
+                                    <p>텐이어스 영 독 프릴 탑 베이지 <br>
+                                        KRW 43,000
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <button class="feed_close">
+                        <img src="images/main/feed_close_icon.png" alt="">
+                    </button>
+                </div>
+                <div class="pop_up_feed8">
+                    <div class="photo_box"><!--왼-->
+                        <img src="images/main/instagram_feed_8.jpg" alt="">
+                    </div>
+                    <div class="pop_up_text_box"><!--오-->
+                        <div class="propile">
+                            <div class="instagram_propile">
+                                <img src="images/main/instagram_propile.svg" alt=""><!--왼-->
+                            </div>
+                            <div class="name">
+                                <p>on_u</p>
+                            </div>
+                        </div>
+                        <div class="feed_text">
+                            <p> Country DogⓇ Tee
+                                <br>
+                                사람과 반려견이 한층더 가까워 지는 시간.
+
+                                심플한 디자인의 크롭스타일 티셔츠입니다.
+
+                                사람과 반려견과 함께 커플룩으로 연출하면 더욱 더 사랑스러운 룩을 연출할 수 있습니다.
+
+                                Made of Cotton 100%
+                            </p>
+                        </div>
+                        <div class="inner_product">
+                            <a href="javascript:return false;">
+                                <div class="product_photo_box">
+                                    <img src="images/main/inner_product_8.jpg" alt="">
+                                </div>
+                                <div class="product_text_box">
+                                    <p>
+                                        컨츄리 독 티 포 독_스카이 블루 <br>
+                                        KRW 37,000
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <button class="feed_close">
+                        <img src="images/main/feed_close_icon.png" alt="">
+                    </button>
+                </div>
+                <div class="pop_up_feed9">
+                    <div class="photo_box"><!--왼-->
+                        <img src="images/main/instagram_feed_9.jpg" alt="">
+                    </div>
+                    <div class="pop_up_text_box"><!--오-->
+                        <div class="propile">
+                            <div class="instagram_propile">
+                                <img src="images/main/instagram_propile.svg" alt=""><!--왼-->
+                            </div>
+                            <div class="name">
+                                <p>on_u</p>
+                            </div>
+                        </div>
+                        <div class="feed_text">
+                            <p> 하얀 곰돌이로 변신완료! 럭키❤️ 롯데백화점 본점 팝업스토어 방문해 주셔서 감사합니다😍
+                            </p>
+                        </div>
+
+                    </div>
+                    <button class="feed_close">
+                        <img src="images/main/feed_close_icon.png" alt="">
+                    </button>
+                </div>
+                <div class="pop_up_feed10">
+                    <div class="photo_box"><!--왼-->
+                        <img src="images/main/instagram_feed_10.jpg" alt="">
+                    </div>
+                    <div class="pop_up_text_box"><!--오-->
+                        <div class="propile">
+                            <div class="instagram_propile">
+                                <img src="images/main/instagram_propile.svg" alt=""><!--왼-->
+                            </div>
+                            <div class="name">
+                                <p>on_u</p>
+                            </div>
+                        </div>
+                        <div class="feed_text">
+                            <p> 팝업스토어를 방문해준 귀여운 멍멍친구들😍 방문을 너무너무 감사드립니다!
+                                .
+                                롯데백화점 본점 팝업스토어는 12일 목요일까지입니다. 댕댕이들과 함께 놀러오세요 :)
+                            </p>
+                        </div>
+
+                    </div>
+                    <button class="feed_close">
+                        <img src="images/main/feed_close_icon.png" alt="">
+                    </button>
+                </div>
+                <div class="pop_up_feed11">
+                    <div class="photo_box"><!--왼-->
+                        <img src="images/main/instagram_feed_11.jpg" alt="">
+                    </div>
+                    <div class="pop_up_text_box"><!--오-->
+                        <div class="propile">
+                            <div class="instagram_propile">
+                                <img src="images/main/instagram_propile.svg" alt=""><!--왼-->
+                            </div>
+                            <div class="name">
+                                <p>on_u</p>
+                            </div>
+                        </div>
+                        <div class="feed_text">
+                            <p> 귀여운 텐텐독 슬리브티가 업데이트 되었습니다 🤗
+                            </p>
+                        </div>
+                        <div class="inner_product">
+                            <a href="javascript:return false;">
+                                <div>
+                                    <div class="product_photo_box tentendog">
+                                        <img src="images/main/inner_product_11.jpg" alt="">
+                                    </div>
+                                    <div class="product_text_box">
+                                        <p>
+
+
+
+                                            텐 이어스 영 독 슬리브 티 <br> 라이트 블루 <br>
+                                            KRW 32,000
+                                        </p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="product_photo_box tentendog">
+                                        <img src="images/main/inner_product_11-2.jpg" alt="">
+                                    </div>
+                                    <div class="product_text_box">
+                                        <p>
+
+
+                                            텐 이어스 영 독 슬리브 티 <br> 옐로우 <br>
+                                            KRW 32,000
+                                        </p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="product_photo_box tentendog">
+                                        <img src="images/main/inner_product_11-1.jpg" alt="">
+                                    </div>
+                                    <div class="product_text_box">
+                                        <p>
+
+
+                                            텐 이어스 영 독 슬리브 티 <br> 화이트 <br>
+                                            KRW 32,000
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <button class="feed_close">
+                        <img src="images/main/feed_close_icon.png" alt="">
+                    </button>
+                </div>
+                <div class="pop_up_feed12">
+                    <div class="photo_box"><!--왼-->
+                        <img src="images/main/instagram_feed_12.jpg" alt="">
+                    </div>
+                    <div class="pop_up_text_box"><!--오-->
+                        <div class="propile">
+                            <div class="instagram_propile">
+                                <img src="images/main/instagram_propile.svg" alt=""><!--왼-->
+                            </div>
+                            <div class="name">
+                                <p>on_u</p>
+                            </div>
+                        </div>
+                        <div class="feed_text">
+                            <p> 중대형견을위한 안전하고 튼튼한 목줄이 업데이트 되었습니다. 최소 38cm부터
+                                57cm 목둘레의 댕댕이들까지 사용 가능합니다🦮
+                            </p>
+                        </div>
+                        <div class="inner_product">
+                            <a href="javascript:return false;">
+                                <div class="product_photo_box">
+                                    <img src="images/main/inner_product_12.jpg" alt="">
+                                </div>
+                                <div class="product_text_box">
+                                    <p>
+                                        웨그 독 세이프 칼라 캔디 <br> 스트라이프 <br>
+                                        KRW 56,000
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <button class="feed_close">
+                        <img src="images/main/feed_close_icon.png" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div><!--container_wrap_E-->
+    <div id="footer_wrap">
+        <div id="footer">
+            <div class="footer1">
+                <ul class="cs">
+                    <li>C / S</li>
+                    <li>070-7576-3421</li>
+                    <li>
+                        AM 10:00 - PM 17:00 (주말 및 공휴일 휴무)
+                        <br> <span>점심시간</span> 13:00 - 1 4:00
+                    </li>
+                </ul>
+                <ul class="company">
+                    <li>COMPANY</li>
+                    <li class="company_inner">
+                        <ul>
+                            <li>온유(on.u)</li>
+                            <li>CEO : YONG SEONGYEONG</li>
+                            <li> 부산 해운대구 센텀동로 49
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>Business License : 477-08-00910[사업자정보확인]</li>
+                            <li> E-Commerce Permit : 2023-부산센텀-0555
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>T : 070-7576-3421</li>
+                            <li>E-mail : onu@naver.com</li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="bank">
+                    <li>BANK</li>
+                    <li>
+                        <span>우리은행 1005-357-998083</span> <br> <span class="name">예금주 : 온유</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer2">
+                <ul>
+                    <li><a href="sub/about.html">AboutUs</a></li>
+                    <li><a href="javascript:return false;">Customer Service</a></li>
+                    <li><a href="sub/about.html#map">Offline Stores</a></li>
+                    <li><a href="javascript:return false;">Size guide</a></li>
+                    <li><a href="javascript:return false;">Wholesale</a></li>
+                    <li><a href="javascript:return false;">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </div><!--footer_wrap_E-->
+    <button class="scroll_top_btn">
+        <img src="images/main/scroll_top.svg" alt="">
+    </button>
+    <!--mouse_cursor-->
+    <div id="drawing_line">
+        <svg class="drawing_line_svg">
+            <circle class="drawing_line_circle" cx="0" cy="0" r="8"></circle>
+            <polyline class="drawing_line_polyline" points=""></polyline>
+        </svg>
+    </div>
+
+
+    <!--기본소스js-->
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!--slick js-->
+    <script src="js/slick.js"></script>
+    <!--aos js-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!--visual-->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 0,
+            loop: true,
+            autoplay: {
+                delay: 2500,//슬라이드 넘어가는 시간
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+    <!--event-->
+    <script>
+        $('#slider-div').slick('goTo', 1);
+        $('.center').slick({
+            initialSlide: 1,
+            autoplay: true,
+            centerMode: true,
+            centerPadding: '-6px',
+            slidesToShow: 3,
+            slidesPerRow: 1,
+            dots: false,
+        });
+    </script>
+</body>
+
+</html>
